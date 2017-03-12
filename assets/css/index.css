@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+/* line 6, ../sass/index.sass */
+.navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: #f44336;
+  transition: all 1s ease;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+/* line 18, ../sass/index.sass */
+.navbar-inverse .navbar-brand {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+  color: #f44336;
+  transition: all 1s ease;
+  border: 1px solid white;
+}
+
+/* line 26, ../sass/index.sass */
+a.nav-link.active {
+  background: #eee;
+  border-radius: 10px;
+}
+
+/* line 30, ../sass/index.sass */
+#custom1 {
+  margin-top: 100px;
+  height: 100px;
+}
