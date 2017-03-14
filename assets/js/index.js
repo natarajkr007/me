@@ -6,5 +6,14 @@ $(document).ready(function() {
     else {
     $('.navbar.navbar-toggleable-md.fixed-top').removeClass('navbar-inverse bg-inverse');
     }
+
+		var wScroll = $(this).scrollTop();
+		console.log(wScroll/14);
+		var pContainerHeight = $('#home').height();
+		if (wScroll/14 <= 46) {
+	    $('.iron-man img').css({
+				 'transform' : 'translate(0px, -'+ wScroll /12 +'%)'
+	    });
+		}
   });
 });
