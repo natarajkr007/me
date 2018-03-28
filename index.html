@@ -5,55 +5,238 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>KRN - portfolio</title>
+  <title>Nataraj KR | IIITian | coder | web developer</title>
   <link href="assets/images/favicon.ico" rel="icon" type="image/x-icon" />
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="assets/chartist/chartist.min.css">
   <link rel="stylesheet" href="assets/css/index.css">
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target="nav-menu" data-offset="50">
 
-  <nav class="navbar navbar-toggleable-md fixed-top">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">KRN</a>
+  <nav class="navbar navbar-expand-md navbar-light bg-light custom-navbar">
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#test">Test</a>
-          </li>
-        </ul>
-      </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse container" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link a-nav-text" href="#about-section">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link a-nav-text" href="#experiance-section">Experiance</a>
+        </li>
+      </ul>
     </div>
+
   </nav>
 
-  <div class="container">
-    <div id="home">
-      <div class="iron-man"><img src="./assets/images/iron-man.jpg" alt=""></div>
-      <div  class="offset-md-4 col-md-4 text-center">
-        <hr class="styled">
-        <img src="./assets/images/abs.jpg" alt="KRN" class="rounded">
-        <hr class="styled">
+  <section id="home-section">
+    <div class="container">
+      <h1 class="text-center">NATARAJ KR</h1>
+      <div id="typed-abouts">
+        <p>I am a <strong><i>IIITian</i></strong></p>
+        <p>I am a <strong><i>Passionate Coder</i></strong></p>
+        <p>I am a <strong><i>Web Developer</i></strong></p>
+        <!-- <p>I am a <strong><i>an ECE graduate</i></strong></p> -->
+        <p><strong>#</strong>tonyStark fan <strong>#</strong>forever</p>
       </div>
-      <h1 class="text-center name">KR Nataraj</h1>
-      <h6 class="text-center">UG-3</h6>
-      <h4 class="text-center text-primary">Indian Institute of Information Technology</h4>
+      <div class="text-center typed-div">
+        <span id="abouts-typed"></span>
+      </div>
+      <div class="desktop">
+        <div class="row">
+          <div class="offset-md-3">
+            <span id="welcome-typed"></span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div style="height: 1000px; border: 1px solid red;"></div>
+  </section>
+
+  <div class="container flex-box center-flex scroller">
+    <span class="scroll-btn">
+      <a href="#about-section">
+        <span class="mouse">
+          <span>
+          </span>
+        </span>
+      </a>
+    </span>
   </div>
 
+  <section id="about-section">
+    <div class="container">
+      <h1 class="text-center">about</h1>
+      <div class="row">
+        <div class="col-md-6 left-div">
+          <h3 class="text-center"><span>#</span>myself</h3>
+          <p>
+            Myself KR Natraj. I'm student of Indian Institute of Information Technology, Sri City, Chittoor,  pursuing final year B.tech . I'm a <strong>professional coder</strong> and a <strong>full stack web developer</strong>.
+          </p>
+          </br>
+          <p>
+            I am everlearning and a very curious engineer. Logical thinking is my best ability.
+            I love to keep myself updated with the latest technological advancements happening around the globe.
+          </p>
+        </div>
+        <div class="col-md-6 right-div">
+          <h3 class="text-center">skills</h3>
+          <div class="ct-chart ct-perfect-fourth"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 programming-div">
+          <h3><span>{ } </span>programming</h3>
+          <p>
+            I'm a passionate coder. Being so I learned many programming languages to write more and more simple codes.
+            I always try and write less complex and simple codes to do much complex tasks. My motto is to code once and use forever.
+          </p>
+          <div class="col-md-12 languages-div">
+            <h5>languages I can speak with computer</h5>
+            <div class="col-md-12">
+              <h6>C / C++</h6><br>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 bar1"></div>
+                <div class="col-md-4 col-sm-4 bar2"></div>
+                <div class="col-md-4 col-sm-4 bar3 flex-box center-flex mid-flex">proficient</div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <h6>Java</h6><br>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 bar1"></div>
+                <div class="col-md-4 col-sm-4 bar2"></div>
+                <div class="col-md-4 col-sm-4 bar3 flex-box center-flex mid-flex">proficient</div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <h6>Python</h6><br>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 bar1"></div>
+                <div class="col-md-4 col-sm-4 bar2 flex-box center-flex mid-flex">intermediate</div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <h6>JavaScript</h6><br>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 bar1"></div>
+                <div class="col-md-4 col-sm-4 bar2"></div>
+                <div class="col-md-4 col-sm-4 bar3 flex-box center-flex mid-flex">proficient</div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <h6>MatLab</h6><br>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 bar1"></div>
+                <div class="col-md-4 col-sm-4 bar2 flex-box center-flex mid-flex">intermediate</div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <h6>Embedded C</h6><br>
+              <div class="row">
+                <div class="col-md-4 col-sm-4 bar1 flex-box center-flex mid-flex">beginner</div>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <br>
+              <p>In addition to these programming languges I am also profient in <span>HTML5</span> & <span>CSS3</span>. I also worked with <span>PHP</span>, <span>MySQL</span>, <span>MongoDB</span> & <span>Bootstrap.</span> </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 frameworks-div">
+              <h5><i class="material-icons">web</i> web frameworks</h5>
+              <p>I have done projects using frameworks <span>Django</span> & <span>Angular</span>. I prefer working on Angular because of its more customizability over Django. </p>
+            </div>
+            <div class="col-md-6 col-sm-6 microcontroller-div">
+              <h5><i class="material-icons">select_all</i> micro-controllers</h5>
+              <p>
+                I have used many microcontrollers to acomplish various functionalities in my projects.
+                I have good understanding of the working of <span>Arduino UNO</span>, <span>Raspberry Pi</span> etc.,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiance-section">
+    <div class="container">
+      <h1 class="text-center">experiance</h1>
+      <div class="experiance-content">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 rigkno-box">
+            <span>R</span><span>I</span><span>G</span><span>K</span><span>N</span><span>O</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-3 rigkno-box">
+            Tech. Pvt. Ltd
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 rigkno-box-detail">
+            <h4>INTERN</h4>
+            <span>Worked using Angular, MongoDB, Node etc.,</span>
+            <ul>
+              <li>
+                Developed an interactive platform for schools where students, teachers and parent can interact with each other on it.
+              </li>
+              <li>
+                The website was devoloped based on social networking principles.
+              </li>
+              <li>
+                Payment portal was built to handle the various fee payments of students.
+              </li>
+              <li>
+                Linked payment gateways api's.
+              </li>
+              <li>
+                Students will be provided with curated educational videos based on their interests.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="experiance-content">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 ta-box">
+            <h2>Teaching Assistant</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12 ta-box-detail">
+            <h4>IIITS</h4>
+            <ul>
+              <li>
+                Assisting professor with course related work.
+              </li>
+              <li>
+                Handling tutorial sessions of respective courses.
+              </li>
+              <li>
+                Worked as TA for courses EIS, ITWS, BEC & LEC.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script type="text/javascript" src="bootstrap/js/jquery-3.1.1.slim.min.js"></script>
-  <script type="text/javascript" src="bootstrap/js/tether.min.js"></script>
-  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/js/typed.js"></script>
+  <script type="text/Javascript" src="assets/chartist/chartist.min.js"></script>
   <script type="text/javascript" src="assets/js/index.js"></script>
 
 </body>
